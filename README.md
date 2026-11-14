@@ -1,8 +1,9 @@
-# food-picture-01 — Texas Smoked Prime Beef Brisket with Peppery Bark Deep Smoke Ring and Sweet Corn
+# food-picture-01 — Ruby Beetroot-Cured Nordic Salmon Gravlax Rosette with Dill & Crème Fraîche
 
-High-aesthetic, photorealistic culinary photograph for make.fun competition food-picture-01.
+High-aesthetic, photorealistic Michelin-star culinary photograph for make.fun competition food-picture-01.
 
-- **Dish**: Texas Smoked Prime Beef Brisket with Peppery Bark Deep Smoke Ring and Sweet Corn
+- **Dish**: Ruby Beetroot-Cured Nordic Salmon Gravlax Rosette with Dill & Crème Fraîche
+- **Cuisine**: Nordic New Wave
 - **Resolution**: 1024x1024
 - **Format**: JPEG (high efficiency, color-optimized)
-- **Asset**: `texas-smoked-beef-brisket.jpg`
+- **Asset**: `nordic-salmon-gravlax-rosette.jpg`

@@ -4,8 +4,8 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
-const SOURCE_NAME = "texas-smoked-beef-brisket.jpg";
-const EXPECTED_DIGEST = "2225aa736001f82220df0c551ed4db8991eb6221d7511e66e00718635aa962e7";
+const SOURCE_NAME = "nordic-salmon-gravlax-rosette.jpg";
+const EXPECTED_DIGEST = "ebddd2e5efb6036c32be5d6fe07881caf9bbf88b531b3f374548c836c171197c";
 const MAX_PAYLOAD_BYTES = 1048576;
 const MAX_PIXEL_DIM = 1024;
 
@@ -62,7 +62,7 @@ function verifyDishAsset(assetPath: string): { payload: Buffer; metrics: ImageMe
   }
   const digest = createHash("sha256").update(payload).digest("hex");
   if (digest !== EXPECTED_DIGEST) {
-    throw new Error(`Digest mismatch: expected ${EXPECTED_DIGEST}, got ${digest}`);
+    throw new Error(`Digest mismatch: expected ${EXPECTED_DIGEST}, got $ebddd2e5efb6036c32be5d6fe07881caf9bbf88b531b3f374548c836c171197c`);
   }
   const { width, height } = scanJpegDimensions(payload);
   if (width < 1 || height < 1 || width > MAX_PIXEL_DIM || height > MAX_PIXEL_DIM) {
